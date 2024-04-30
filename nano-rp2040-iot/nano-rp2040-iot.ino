@@ -2,8 +2,8 @@
 #include <WiFiNINA.h>
 #include <PubSubClient.h>
 
-char ssid[] = "BALTICOM2G_7826283";
-char pass[] = "esccyhwzcss10";
+char ssid[] = "SSID";
+char pass[] = "PASS";
 
 WiFiClient wifiClient;
 PubSubClient mqttClient(wifiClient);
